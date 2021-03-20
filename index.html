@@ -8,27 +8,43 @@
 </head>
 
 <body>
-    <header>
-        <div id="links">
-        <a href="#" class="About">About</a>
-        <a href="#" class="Work">Work</a>
-        <a href="#" class="Contact">Contact</a>
-        </div>
+    <navbar id="navbar">
+
+        <a href="#projects" class="nav-link">Projects</a>
+        <a id="profile-link" class="nav-link" target="_blank" href="https://www.github.com/amina-radfar">Github
+            Profile</a>
+    </navbar>
+    <main>
         <section id="welcome-section">
-            <h1>Hello I'm Amina"Radfar"</h1>
+            <h1 class="Hello">Hello I'm Amina"Radfar"</h1>
+            <p class="Hello">A Web Developer</p>
         </section>
-        <main>
-            <section id="projects">
-                <h class="project-tile"></h>
-                <a href="#" class="first-project"></a>
-            </section>
-            <nav id="navbar">
-                <a href="#"></a>
-            </nav>
+        <section id="projects">
+            <h1 class="project-tile">My Projects</h1>
+            <a href="#" class="first-project"></a>
+            <div class="div-img">
+                <div class="div-img-project">
+                    <img class="project-img" src="CSS/pics/Capture.PNG">
+                    First Project
+                </div>
+                <img class="project-img" src="CSS/pics/Capture2.PNG">
+                <img class="project-img" src="CSS/pics/Capture3.PNG">
+            </div>
+            <div class="div-img">
+                <img class="project-img" src="CSS/pics/Capture4.PNG">
+                <img class="project-img" src="CSS/pics/Capture5.PNG">
+            </div>
+        </section>
+        <section class="Github-profile">
+            <h2 >Github profile</h2>
+            <i class="fab fa-facebook-square"></i>
+            <i class="fas fa-search"></i>
+        </section>
+    
+    </main>
 
-        </main>
-    </header>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <script src="https://kit.fontawesome.com/ad46037b8d.js" crossorigin="anonymous"></script>
+    
 </body>
-<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
-
 </html>
